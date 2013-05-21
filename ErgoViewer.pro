@@ -13,6 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    gallery.cpp \
+    galleryview.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    gallery.h \
+    galleryview.h
